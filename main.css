@@ -68,7 +68,7 @@ h1{
     color: aliceblue;
     margin-left: 290px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
     .lora{
      width: 100%;
      margin: 0 auto;
@@ -93,7 +93,7 @@ h1{
     margin-right: 400px;
     color: aliceblue;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
     .logo{
      width: 100%;
      margin: 0 auto;
@@ -146,7 +146,7 @@ h1{
     width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
-    padding: 310px 0px 0px 180px ;
+    padding: 290px 0px 0px 170px ;
 }
 .polos{
     margin-left: 95px;
@@ -159,7 +159,7 @@ h1{
     color: aliceblue;
     margin-left: 65px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
     .butto{
      margin-left: 15px ;
      margin-bottom: 15px;
@@ -169,6 +169,12 @@ h1{
     }
     .polos{
         margin-left: 40px;
+    }
+    .card{
+        margin-left: 45px;
+    }
+    .containers{
+        padding-bottom: 0px;
     }
 }
 .autoImg{
@@ -219,10 +225,31 @@ h1{
     padding:10 60 10 10 ;
     color: aliceblue;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
     .pochta{
         width: 150px;
     }
+    
+   
+}
+@media screen and (min-width: 768px) and (max-width: 992px)  {
+       .card{
+           margin-left: 120px;
+       }
+       .fotos{
+        padding: 610px 0px 0px 25px ;
+       }
+       .butto{
+        margin-left: 40px;
+       }
+       .polos{
+        margin-left: 70px;
+       }
+       .buttos{
+        margin-left: 115px;
+       }
+    
+      
     
    
 }
